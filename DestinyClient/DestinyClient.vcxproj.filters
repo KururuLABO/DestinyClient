@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{20805295-c3ec-4ce6-8c74-5a33da416790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{959c6222-0e1e-452d-9966-4bd82e9e4e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{59d97bc5-6d0e-4a83-9100-8eead920d47f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{62144863-97d4-4cfb-89e0-ecafeb63b232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hack">
+      <UniqueIdentifier>{2569250b-38f2-46e5-8391-4d1e8707ada7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows">
+      <UniqueIdentifier>{5c3b90fb-76b4-4ae6-a31e-cce21f2ae76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{c829b2f0-f60c-4ff6-a96f-038d34d2192f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NMCO">
+      <UniqueIdentifier>{f916f66c-8d40-42da-b29e-84f7442f5b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NMCO">
+      <UniqueIdentifier>{945726b7-4f86-49b1-9326-7310aebd7020}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DestinySocket.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="DestinyWindows.cpp">
+      <Filter>Source Files\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="DestinyCanvas.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DestinyMapleAPI.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="DestinyMapleHack.cpp">
+      <Filter>Source Files\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="DesticyPacketLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="NMCOHook.cpp">
+      <Filter>Source Files\NMCO</Filter>
+    </ClCompile>
+    <ClCompile Include="NMDataObject.cpp">
+      <Filter>Source Files\NMCO</Filter>
+    </ClCompile>
+    <ClCompile Include="NMFunctionObject.cpp">
+      <Filter>Source Files\NMCO</Filter>
+    </ClCompile>
+    <ClCompile Include="NMSerializable.cpp">
+      <Filter>Source Files\NMCO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Client176-master\AuthHook\Client176\detours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NMDataObject.h">
+      <Filter>Header Files\NMCO</Filter>
+    </ClInclude>
+    <ClInclude Include="NMFunctionObject.h">
+      <Filter>Header Files\NMCO</Filter>
+    </ClInclude>
+    <ClInclude Include="NMGeneral.h">
+      <Filter>Header Files\NMCO</Filter>
+    </ClInclude>
+    <ClInclude Include="NMSerializable.h">
+      <Filter>Header Files\NMCO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\Client176-master\AuthHook\Client176\detours.lib">
+      <Filter>Library</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
